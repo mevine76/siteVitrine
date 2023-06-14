@@ -1,31 +1,70 @@
 
 .container{
     display: flex;
-    background-color: #6b6969;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #000;
     border-radius: 5px;
 }
 
+
 .button{
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 10px;
     justify-content: space-evenly;
 }
 
 #btn1, #btn2, #btn3{
     background-color: #fff;
     margin-left: 15px;
-    list-style-type: none;
+    border-radius: 6px;
+}
+
+.button a{
     text-decoration: none;
+    color: black;
 }
 
 .card{
-    margin: 10px;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+.card-text1{
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.card-text2{
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.card-text3{
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.card-text4{
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.card-text5{
+    background-color: #4524fc;
+    border: 1px solid #000;
+    border-radius: 3px;
 }
 
 img{
     width: 100%;
 }
 
-.footer{
-    background-color: lightgray;
-}

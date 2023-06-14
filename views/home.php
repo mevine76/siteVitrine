@@ -18,11 +18,11 @@ foreach ($data as $product) {
     <div class="card" style="width: 18rem;">
         <img src="../assets/img/product<?=$i++?>.png" class="card-img-top" alt="...">
         <div class="card-body">
-            <p class="card-text1">Nom:  <?= $product['nom'] ?></p>
-            <p class="card-text2">référence:  <?= $product['reference'] ?></p>
-            <p class="card-text3">contenu:  <?= $product['contenu'] ?></p>
-            <p class="card-text4">poids:  <?= $product['poids'] ?></p>
-            <p class="card-text5">prix:  <?= $product['prix'] ?></p>
+            <p class="card-text1"><b>Nom:</b>  <?= $product['nom'] ?></p>
+            <p class="card-text2"><b>référence:</b>  <?= $product['reference'] ?></p>
+            <p class="card-text3"><b>contenu:</b>  <?= $product['contenu'] ?></p>
+            <p class="card-text4"><b>poids:</b>  <?= $product['poids'] ?></p>
+            <p class="card-text5"><b>prix:</b>  <?= $product['prix'] ?></p>
         </div>
 
 <?php } ?>
