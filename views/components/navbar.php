@@ -33,10 +33,7 @@
       <!-- Icons -->
       <ul class="navbar-nav d-flex flex-row me-1">
         <li class="nav-item--custom-color me-3 me-lg-0">
-          <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-        </li>
-        <li class="nav-item me-3 me-lg-0">
-          <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="nav-link" href="#"><i class="fas fa-shopping-cart" style="color:white;"></i></a>
         </li>
       </ul>
 

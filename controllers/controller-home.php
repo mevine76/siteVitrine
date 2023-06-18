@@ -29,7 +29,7 @@ function generateProduct($data, $limit = 18)
         echo    '<h6>' . $product['reference'] . '</h6>';
         echo    '<h6>' . $product['contenu'] . '</h6>';
         echo    '<h6>' . $product['poids'] . '</h6>';
-        echo    '<h5>' . $product['prix'] . '&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">ajouter au panier</a></h5>';
+        echo    '<h5><span style="color:green;">' . $product['prix'] . '&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-align:right;"><span style="color:yellow;">ajouter au panier</a></h5>';
         echo    '</div>';
         echo    '</div>';
     }

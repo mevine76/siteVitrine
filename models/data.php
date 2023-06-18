@@ -23,10 +23,10 @@ $data = [
 	],
 
 	[
-		"nom" => "Ananas",
+		"nom" => "Maxi Ananas",
 		"reference" => "9713",
-		"contenu" => "victoria, chocolat,..",
-		"poids" => "2 KG",
+		"contenu" => "10 ananas victoria, chocolat Mascarin",
+		"poids" => "5 KG",
 		"prix" => "89 €",
 		"categorie" => "fruits",
 		"image" => "product3.png"
@@ -65,8 +65,8 @@ $data = [
 	[
 		"nom" => "Boucane",
 		"reference" => "9717",
-		"contenu" => "saucisses, boucané,..",
-		"poids" => "3 KG",
+		"contenu" => "saucisses créoles, boucané fumé,..",
+		"poids" => "5 KG",
 		"prix" => "89 €",
 		"categorie" => "specialites",
 		"image" => "product7.png"
