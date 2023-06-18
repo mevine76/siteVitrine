@@ -3,10 +3,8 @@
 
 
 
-
-
-
-
-
+<div class="results">
+<?php generateProduct($data); ?>
+</div>
 
 <?php include "components/footer.php" ?>

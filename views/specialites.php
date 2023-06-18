@@ -3,7 +3,9 @@
 
 
 
-
+<div class="results">
+<?php generateProduct($data); ?>
+</div>
 
 
 

@@ -10,7 +10,7 @@ require "../models/data.php";
 
 
 
-function generateProduct($data, $limit = 15)
+function generateProduct($data, $limit = 18)
 {
 
     $i = 1;
@@ -22,7 +22,7 @@ function generateProduct($data, $limit = 15)
         
         echo    '<div class="infocardContainer">';
         echo    '<div id="main">';
-        echo    '<img src="../assets/img/product' . $i++ . '.png">';
+        echo    '<img src="../assets/img/' . $product['image'] . '">';
         echo    '</div>';
         echo    '<div id="textbois">';
         echo    '<h2>' . $product['nom'] . '</h2>';

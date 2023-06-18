@@ -17,15 +17,15 @@
 
         <!-- Link -->
         <li class="nav-item">
-          <a class="nav-link" href="#">Accueil</a>
+          <a class="nav-link" href="../controllers/controller-home.php">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fruits</a>
+          <a class="nav-link" href="../controllers/controller-fruits.php">Fruits</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Spécialités</a>
+          <a class="nav-link" href="../controllers/controller-specialites.php">Spécialités</a>
         </li><li class="nav-item">
-          <a class="nav-link" href="#">Fleurs</a>
+          <a class="nav-link" href="../controllers/controller-fleurs.php">Fleurs</a>
         </li>
 
       </ul>

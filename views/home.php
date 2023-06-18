@@ -4,10 +4,10 @@
 
 
 <div class="results">
-<?php 
-generateProduct($data, $limit = 15) 
+    <?php
+    generateProduct($data, $limit = 18)
 
-?>
+    ?>
 </div>
 
 <?php include "components/footer.php" ?>
