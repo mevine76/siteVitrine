@@ -3,14 +3,11 @@
 
 
 
-
+<div class="results">
 <?php 
-generateProduct($data, $limit = 5) 
-
-    
-
+generateProduct($data, $limit = 15) 
 
 ?>
-
+</div>
 
 <?php include "components/footer.php" ?>

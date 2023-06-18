@@ -8,12 +8,4 @@
 
 
 
-<?php 
-generateProduct($data, $limit = 5) 
-
-    
-
-
-?>
-
-        <?php include "components/footer.php" ?>
+<?php include "components/footer.php" ?>

@@ -3,84 +3,83 @@
 $data = [
 
 	[
-		"nom" => "goyavier",
+		"nom" => "Goyavier",
 		"reference" => "9711",
-		"contenu" => "goyave, bananes, punch, gélée",
+		"contenu" => "goyave, bananes, punch, gélée..",
 		"poids" => "2 KG",
 		"prix" => "74 €"
 	],
 
 	[
-		"nom" => "longanis",
+		"nom" => "Longanis",
 		"reference" => "9712",
-		"contenu" => "longanis, victoria, pâtes de fruits",
+		"contenu" => "longanis, victoria, pâtes de fruits..",
 		"poids" => "3 KG",
 		"prix" => "59 €"
 	],
 
 	[
-		"nom" => "ananas",
+		"nom" => "Ananas",
 		"reference" => "9713",
-		"contenu" => "victoria, chocolat,",
+		"contenu" => "victoria, chocolat,..",
 		"poids" => "2 KG",
 		"prix" => "89 €"
 	],
 
 	[
-		"nom" => "avocat/banane",
+		"nom" => "Zavocat/banane",
 		"reference" => "9714",
-		"contenu" => "avocat, bananes, confiture",
+		"contenu" => "zavocat, bananes, confiture..",
 		"poids" => "5 KG",
 		"prix" => "89 €"
 	],
 
 	[
-		"nom" => "passion",
+		"nom" => "Passion",
 		"reference" => "9715",
-		"contenu" => "fruits de la passion,
-		 rhum arrangé, confiture letchis",
+		"contenu" => "fruits de la passion, rhum arrangé, confiture letchis",
 		"poids" => "3 KG",
 		"prix" => "94 €"
 	],
 
 	[
-		"nom" => "apero",
+		"nom" => "Apero",
 		"reference" => "9716",
-		"contenu" => "bières, samoussas, bonbon piments",
+		"contenu" => "bières, samoussas, bonbon piments..",
 		"poids" => "2,5 KG",
 		"prix" => "59 €"
 	],
 
 	[
-		"nom" => "boucane",
+		"nom" => "Boucane",
 		"reference" => "9717",
-		"contenu" => "saucisses, boucané,",
+		"contenu" => "saucisses, boucané,..",
 		"poids" => "3 KG",
 		"prix" => "89 €"
 	],
 
 	[
-		"nom" => "bouchon",
+		"nom" => "Bouchon",
 		"reference" => "9718",
-		"contenu" => "bouchon, sauce soja et piment",
+		"contenu" => "bouchon, sauce soja et piment..",
 		"poids" => "3 KG",
 		"prix" => "94 €"
 	],
 
 	[
-		"nom" => "pâtisseries",
+		"nom" => "Pâtisseries",
 		"reference" => "9719",
-		"contenu" => "bonbons miel, cravate, gras, safran,
-		 napolitain, gateaux poisson, pâté créole",
+		"contenu" => "bonbons miel, cravate, gras,
+		gateaux poisson, pâté créole..",
 		"poids" => "3 KG",
 		"prix" => "84 €"
 	],
 
 	[
-		"nom" => "cocktail",
+		"nom" => "Cocktail",
 		"reference" => "9720",
-		"contenu" => "samoussas poulet, fromage,
-		 bonbon piments, bouchon poulet",
+		"contenu" => "samoussas poulet,
+		 bonbon piments, bouchon poulet..",
 		"poids" => "4 KG",
 		"prix" => "114 €"
 	],
@@ -89,13 +88,13 @@ $data = [
 		"nom" => "Anthurium",
 		"reference" => "9721",
 		"contenu" => "15 Anthuriums, guide
-		 d'entretien, calendrier offert",
+		 d'entretien, calendrier offert..",
 		"poids" => "< 1 KG",
 		"prix" => "79 €"
 	],
 
 	[
-		"nom" => "bouquet",
+		"nom" => "Bouquet",
 		"reference" => "9722",
 		"contenu" => "13 fleurs exotiques, 8 feuillages",
 		"poids" => "< 1 KG",
@@ -119,7 +118,7 @@ $data = [
 	],
 
 	[
-		"nom" => "coliplantes exo",
+		"nom" => "Coliplantes exo",
 		"reference" => "9725",
 		"contenu" => "5 plantes tropicales
 		 dans leur substrat neutre",

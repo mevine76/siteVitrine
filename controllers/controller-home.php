@@ -10,7 +10,7 @@ require "../models/data.php";
 
 
 
-function generateProduct($data, $limit = 5)
+function generateProduct($data, $limit = 15)
 {
 
     $i = 1;
@@ -19,15 +19,18 @@ function generateProduct($data, $limit = 5)
         if ($i > $limit) {
             break;
         }
-
-        echo    '<div class="card" style="width: 18rem;">';
-        echo    '<img src="../assets/img/product' . $i++ . '.png" class="card-img-top" alt="...">';
-        echo    '<div class="card-body">';
-        echo    '<p class="card-text1"><b>Nom:</b>' . $product['nom'] . '</p>';
-        echo    '<p class="card-text2"><b>référence:</b>' . $product['reference'] . '</p>';
-        echo    '<p class="card-text3"><b>contenu:</b>' . $product['contenu'] . '</p>';
-        echo    '<p class="card-text4"><b>poids:</b>' . $product['poids'] . '</p>';
-        echo    '<p class="card-text5"><b>prix:</b>' . $product['prix'] . '</p>';
+        
+        echo    '<div class="infocardContainer">';
+        echo    '<div id="main">';
+        echo    '<img src="../assets/img/product' . $i++ . '.png">';
+        echo    '</div>';
+        echo    '<div id="textbois">';
+        echo    '<h2>' . $product['nom'] . '</h2>';
+        echo    '<h6>' . $product['reference'] . '</h6>';
+        echo    '<h6>' . $product['contenu'] . '</h6>';
+        echo    '<h6>' . $product['poids'] . '</h6>';
+        echo    '<h5>' . $product['prix'] . '&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">ajouter au panier</a></h5>';
+        echo    '</div>';
         echo    '</div>';
     }
 }
@@ -36,3 +39,4 @@ function generateProduct($data, $limit = 5)
 
 // charge la vue
 include "../views/home.php";
+
